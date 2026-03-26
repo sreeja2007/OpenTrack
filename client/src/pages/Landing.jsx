@@ -1,7 +1,4 @@
-import { useNavigate } from 'react-router-dom';
-
-export default function Landing() {
-  const navigate = useNavigate();
+export default function Landing() 
 
   const handleLogin = () => {
     window.location.href = 'http://localhost:5000/auth/github';
