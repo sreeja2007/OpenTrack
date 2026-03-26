@@ -1,7 +1,6 @@
-export default function Landing() 
-
+export default function Landing() {
   const handleLogin = () => {
-    window.location.href = 'http://localhost:5000/auth/github';
+    window.location.href = 'https://opentrack-4my2.onrender.com/auth/github';
   };
 
   return (
@@ -181,7 +180,7 @@ export default function Landing()
                 background: '#0d1117', border: '1px solid #30363d',
                 borderRadius: '20px', padding: '3px 12px',
                 fontSize: '11px', color: '#8b949e'
-              }}>{f.tag}</div>
+              }}></div>
             </div>
           ))}
         </div>
