@@ -12,7 +12,7 @@ export default function ErrorExplainer() {
     setExplanation('');
     const token = localStorage.getItem('token');
     try {
-      const res = await axios.post('http://localhost:5000/ai',
+      const res = await axios.post('https://opentrack-4my2.onrender.com/ai',
         { error },
         { headers: { Authorization: `Bearer ${token}` } }
       );

@@ -12,7 +12,7 @@ export default function ApiTester() {
     setResponse(null);
     const token = localStorage.getItem('token');
     try {
-      const res = await axios.post('http://localhost:5000/api-tester',
+      const res = await axios.post('https://opentrack-4my2.onrender.com/api-tester',
         { url, method },
         { headers: { Authorization: `Bearer ${token}` } }
       );

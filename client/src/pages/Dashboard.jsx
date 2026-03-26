@@ -37,7 +37,7 @@ export default function Dashboard() {
       return navigate('/');
     }
 
-    axios.get('http://localhost:5000/repos', {
+    axios.get('https://opentrack-4my2.onrender.com/repos', {
       headers: { Authorization: `Bearer ${stored}` }
     })
     .then(res => {
