@@ -8,7 +8,7 @@ const aiRoutes=require('./routes/ai.js');
 const authRoutes = require('./routes/auth');
 
 const app = express();
-app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(cors({ origin: 'https://open-track1.vercel.app' }));
 app.use(express.json());
 app.use('/auth', authRoutes);
 app.use('/repos', repoRoutes);
