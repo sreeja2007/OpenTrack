@@ -42,7 +42,7 @@ router.get('/github/callback', async (req, res) => {
     );
 
     // Redirect to frontend with token
-    res.redirect(`http://localhost:3000/dashboard?token=${jwtToken}`);
+    res.redirect(`https://open-track1.vercel.app/dashboard?token=${jwtToken}`);
   } catch (err) {
     console.error(err);
     res.status(500).json({ error: 'OAuth failed' });
