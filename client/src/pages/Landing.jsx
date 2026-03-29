@@ -41,9 +41,9 @@ export default function Landing() {
   </span>
 </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '32px' }}>
-          <span style={{ color: '#8b949e', fontSize: '14px', cursor: 'pointer' }}>Features</span>
-          <span style={{ color: '#8b949e', fontSize: '14px', cursor: 'pointer' }}>Docs</span>
-          <span style={{ color: '#8b949e', fontSize: '14px', cursor: 'pointer' }}>GitHub</span>
+         <a href="#features" style={{ color: '#8b949e', fontSize: '14px', cursor: 'pointer', textDecoration: 'none' }}>Features</a>
+         <a href="#features" style={{ color: '#8b949e', fontSize: '14px', cursor: 'pointer', textDecoration: 'none' }}>Docs</a>
+         <a href="https://github.com/sreeja2007/OpenTrack" target="_blank" rel="noreferrer" style={{ color: '#8b949e', fontSize: '14px', cursor: 'pointer', textDecoration: 'none' }}>GitHub</a>
           <button onClick={handleLogin} style={{
             background: '#238636', color: '#fff',
             border: 'none', borderRadius: '8px',
@@ -136,6 +136,7 @@ export default function Landing() {
 
       {/* Features */}
       <div style={{ padding: '80px 48px', maxWidth: '1100px', margin: '0 auto' }}>
+        <div id="features" style={{ padding: '80px 48px', maxWidth: '1100px', margin: '0 auto' }}></div>
         <div style={{ textAlign: 'center', fontSize: '12px', color: '#58a6ff', fontWeight: '600', letterSpacing: '2px', marginBottom: '12px' }}>FEATURES</div>
         <div style={{ textAlign: 'center', fontSize: '36px', fontWeight: '700', color: '#fff', marginBottom: '12px', letterSpacing: '-1px' }}>Everything in one place</div>
         <div style={{ textAlign: 'center', fontSize: '16px', color: '#8b949e', marginBottom: '56px' }}>Built by a developer, for developers</div>
