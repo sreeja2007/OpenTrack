@@ -11,7 +11,7 @@
 
 ## 🚀 Live Demo
 
-🌐 **[opentrack.vercel.app](https://opentrack.vercel.app)**
+🌐 **[https://open-track1.vercel.app/](https://open-track1.vercel.app/)**
 
 ---
 
